@@ -1,0 +1,39 @@
+{
+  "logo": "/images/logo.png",
+  "title": "Elite Real Estate",
+  "description": "Your trusted partner in finding the perfect property. We provide expert guidance and personalized service for all your real estate needs.",
+  "quickLinks": [
+    { "label": "Home", "href": "/" },
+    { "label": "Projects", "href": "/projects" },
+    { "label": "Services", "href": "/services" },
+    { "label": "About", "href": "/about" },
+    { "label": "Team", "href": "/team" },
+    { "label": "Contact", "href": "/contact-us" }
+  ],
+  "phone": "+92 300 1234567",
+  "email": "info@eliterealestate.com",
+  "address": "123 Main Street, Gulberg, Lahore, Pakistan",
+  "socialLinks": [
+    {
+      "platform": "Facebook",
+      "href": "https://facebook.com",
+      "icon": "Facebook"
+    },
+    {
+      "platform": "WhatsApp",
+      "href": "https://wa.me/923001234567",
+      "icon": "WhatsApp"
+    },
+    {
+      "platform": "LinkedIn",
+      "href": "https://linkedin.com",
+      "icon": "LinkedIn"
+    },
+    {
+      "platform": "Twitter",
+      "href": "https://twitter.com",
+      "icon": "Twitter"
+    }
+  ],
+  "copyright": "© 2024 Elite Real Estate. All rights reserved."
+}

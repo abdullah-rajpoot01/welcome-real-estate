@@ -1,0 +1,43 @@
+{
+  "badge": {
+    "text": "Trusted Real Estate Experts",
+    "icon": "ShieldCheck"
+  },
+  "title": "Find Your Dream Home with Confidence",
+  "description": "Explore premium properties, get expert guidance, and make the right investment with our experienced real estate team by your side.",
+  "ctas": [
+    {
+      "text": "Call an Agent",
+      "url": "tel:+923001234567",
+      "icon": "Phone"
+    },
+    {
+      "text": "Chat on WhatsApp",
+      "url": "https://wa.me/923001234567",
+      "icon": "MessageCircle"
+    }
+  ],
+  "image": {
+    "src": "https://images.pexels.com/photos/34450819/pexels-photo-34450819.jpeg",
+    "alt": "Modern house exterior with beautiful landscaping"
+  },
+  "highlightsIcon":"CheckCircle2",
+  "highlights": [
+    "Verified property listings",
+    "Prime locations",
+    "Flexible payment plans",
+    "Expert investment advice"
+  ],
+  "cards": [
+    {
+      "title": "Buy Property",
+      "description": "Discover a wide range of residential and commercial properties in top locations tailored to your budget.",
+      "icon": "Home"
+    },
+    {
+      "title": "Sell Your Property",
+      "description": "List your property with us and reach serious buyers quickly with our proven marketing strategies.",
+      "icon": "TrendingUp"
+    }
+  ]
+}

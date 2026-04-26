@@ -1,0 +1,35 @@
+{
+  "heading": "Why Choose Us",
+  "subheading": "We are committed to delivering trusted, reliable, and result-driven real estate services.",
+  "badge": {
+    "text": "Why Us",
+    "icon": "ShieldCheck"
+  },
+  "points": [
+    {
+      "title": "Experienced Real Estate Experts",
+      "description": "Our team has years of experience in buying, selling, and managing properties.",
+      "icon": "ShieldCheck"
+    },
+    {
+      "title": "Prime Property Listings",
+      "description": "We offer verified properties in top locations with high investment potential.",
+      "icon": "Gavel"
+    },
+    {
+      "title": "Client-Focused Approach",
+      "description": "We prioritize your needs and guide you at every step of the process.",
+      "icon": "Users"
+    },
+    {
+      "title": "Transparent Deals",
+      "description": "We ensure clear documentation and honest transactions with no hidden charges.",
+      "icon": "Banknote"
+    },
+    {
+      "title": "Strong Market Knowledge",
+      "description": "We provide insights based on real market trends to help you make smart decisions.",
+      "icon": "TrendingUp"
+    }
+  ]
+}
