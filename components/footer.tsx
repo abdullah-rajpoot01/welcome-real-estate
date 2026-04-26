@@ -84,7 +84,7 @@ export default async function Footer({
                 >
                   <IconRenderer
                     name="Phone"
-                    className="w-4 h-4 flex-shrink-0 transition-transform duration-300 group-hover:scale-110"
+                    className="w-4 h-4 fleshrink-0 transition-transform duration-300 group-hover:scale-110"
                     aria-hidden="true"
                   />
                   <span>{phone}</span>
@@ -99,7 +99,7 @@ export default async function Footer({
                 >
                   <IconRenderer
                     name="Mail"
-                    className="w-4 h-4 flex-shrink-0 transition-transform duration-300 group-hover:scale-110"
+                    className="w-4 h-4 shrink-0 transition-transform duration-300 group-hover:scale-110"
                     aria-hidden="true"
                   />
                   <span>{email}</span>
@@ -110,7 +110,7 @@ export default async function Footer({
                 <div className="flex items-start gap-3 text-sm text-white/50">
                   <IconRenderer
                     name="MapPin"
-                    className="w-4 h-4 flex-shrink-0 mt-0.5"
+                    className="w-4 h-4 shrink-0 mt-0.5"
                     aria-hidden="true"
                   />
                   <span>{address}</span>
