@@ -1,0 +1,14 @@
+{
+  "name": "Elite Real Estate",
+  "defaultTitle": "Elite Real Estate",
+  "description": "Find Your Dream Home with Confidence",
+  "url": "https://hello-real-estate.pages.dev",
+  "themeColor": "#ffffff",
+  "favicon": "/media/Annotation 2026-04-27 225645.png",
+  "icons": {
+    "icon": "/media/Annotation 2026-04-27 225645.png",
+    "shortcut": "/media/Annotation 2026-04-27 225645.png",
+    "apple": "/media/Annotation 2026-04-27 225645.png",
+    "android": "/media/Annotation 2026-04-27 225645.png"
+  }
+}

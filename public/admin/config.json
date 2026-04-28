@@ -1784,7 +1784,81 @@
               ]
             }
           ]
-        }
+        },
+          {
+              "name": "general_settings",
+              "label": "General Settings",
+              "file": "/content/metadata/config.json",
+              "fields": [
+                {
+                  "label": "Site Name",
+                  "name": "name",
+                  "widget": "string",
+                  "default": "Elite Real Estate"
+                },
+                {
+                  "label": "Default Title",
+                  "name": "defaultTitle",
+                  "widget": "string",
+                  "default": "Elite Real Estate"
+                },
+                {
+                  "label": "Site Description",
+                  "name": "description",
+                  "widget": "text",
+                  "default": "Find Your Dream Home with Confidence"
+                },
+                {
+                  "label": "Site URL",
+                  "name": "url",
+                  "widget": "string",
+                  "default": "https://hello-real-estate.pages.dev"
+                },
+                {
+                  "label": "Theme Color",
+                  "name": "themeColor",
+                  "widget": "color",
+                  "default": "#ffffff"
+                },
+                {
+                  "label": "Favicon",
+                  "name": "favicon",
+                  "widget": "image",
+                  "default": "/favicon.ico"
+                },
+                {
+                  "label": "Icons",
+                  "name": "icons",
+                  "widget": "object",
+                  "fields": [
+                    {
+                      "label": "Standard Icon",
+                      "name": "icon",
+                      "widget": "image",
+                      "default": "/favicon.ico"
+                    },
+                    {
+                      "label": "Shortcut Icon",
+                      "name": "shortcut",
+                      "widget": "image",
+                      "default": "/favicon.ico"
+                    },
+                    {
+                      "label": "Apple Touch Icon",
+                      "name": "apple",
+                      "widget": "image",
+                      "default": "/apple-touch-icon.png"
+                    },
+                    {
+                      "label": "Android Icon",
+                      "name": "android",
+                      "widget": "image",
+                      "default": "/android-chrome-192x192.png"
+                    }
+                  ]
+                }
+              ]
+            }
       ]
     },
     {

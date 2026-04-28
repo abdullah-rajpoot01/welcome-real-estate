@@ -1,9 +1,8 @@
 "use client";
 
-import { MessageCircle, Phone, X } from "lucide-react";
+import {  Phone, X } from "lucide-react";
 import { useState } from "react";
 import Link from "next/link";
-import { WhatsappIcon } from "react-share";
 import { IconRenderer } from "../icons_map";
 
 interface ContactButtonProps {
