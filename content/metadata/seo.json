@@ -1,0 +1,65 @@
+{
+  "home": {
+    "title": "Home | Elite Real Estate",
+    "description": "Find Your Dream Home with Confidence",
+    "image": "/media/pexels-mahmoud-zakariya-2154822140-34243930.jpg",
+    "url": "https://hello-real-estate.pages.dev",
+    "type": "website"
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Explore our latest projects",
+    "image": "/media/pexels-mahmoud-zakariya-2154822140-34243930.jpg",
+    "url": "https://hello-real-estate.pages.dev/projects",
+    "type": "website"
+  },
+  "services": {
+    "title": "Services",
+    "description": "Discover the services we offer",
+    "image": "/media/pexels-mahmoud-zakariya-2154822140-34281368.jpg",
+    "url": "https://hello-real-estate.pages.dev/services",
+    "type": "website"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Learn more about our company",
+    "image": "/media/pexels-mahmoud-zakariya-2154822140-34281368.jpg",
+    "url": "https://hello-real-estate.pages.dev/about",
+    "type": "website"
+  },
+  "team": {
+    "title": "Our Team",
+    "description": "Meet our team members",
+    "image": "/media/pexels-mahmoud-zakariya-2154822140-34281368.jpg",
+    "url": "https://hello-real-estate.pages.dev/team",
+    "type": "website"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with us",
+    "image": "/media/pexels-mahmoud-zakariya-2154822140-34281368.jpg",
+    "url": "https://hello-real-estate.pages.dev/contact-us",
+    "type": "website"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "description": "Read our privacy policy",
+    "image": "/media/pexels-mahmoud-zakariya-2154822140-34281368.jpg",
+    "url": "https://hello-real-estate.pages.dev/privacy",
+    "type": "website"
+  },
+  "terms_and_conditions": {
+    "title": "Terms and Conditions",
+    "description": "Read our terms and conditions",
+    "image": "/media/pexels-mahmoud-zakariya-2154822140-34281368.jpg",
+    "url": "https://hello-real-estate.pages.dev/terms",
+    "type": "website"
+  },
+  "testimonials": {
+    "title": "Our Testimonials",
+    "description": "What Our Clients Say",
+    "image": "https://example.com/team.jpg",
+    "url": "https://example.com/team",
+    "type": "website"
+  }
+}

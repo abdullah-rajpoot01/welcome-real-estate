@@ -1,0 +1,58 @@
+{
+  "heading": "What Our Clients Say",
+  "subheading": "Real feedback from clients who successfully bought, sold, and invested in properties with us.",
+  "badge": {
+    "text": "Testimonials",
+    "icon": "Star"
+  },
+  "viewAllCta": {
+    "text": "View All Testimonials",
+    "url": "/testimonials",
+    "icon": "Building2",
+    "rightIcon": "ArrowRight"
+  },
+  "testimonials": [
+    {
+      "name": "Ahmed Khan",
+      "feedback": "Excellent service! They helped me find the perfect home in DHA and made the whole process smooth and stress-free.",
+      "rating": 5,
+      "icon": "UserCircle",
+      "quoteIcon": "Quote"
+    },
+    {
+      "name": "Sara Ali",
+      "feedback": "Very professional and trustworthy team. They guided me step by step while buying my first investment property.",
+      "rating": 5,
+      "icon": "UserCircle",
+      "quoteIcon": "Quote"
+    },
+    {
+      "name": "Muhammad Usman",
+      "feedback": "Highly recommended real estate company. Transparent dealings and great market knowledge helped me make the right decision.",
+      "rating": 5,
+      "icon": "UserCircle",
+      "quoteIcon": "Quote"
+    },
+    {
+      "name": "Ali Khan",
+      "feedback": "Highly recommended real estate company. Transparent dealings and great market knowledge helped me make the right decision.",
+      "rating": 5,
+      "icon": "UserCircle",
+      "quoteIcon": "Quote"
+    },
+    {
+      "name": "Sami Rajpoot",
+      "feedback": "Excellent service! They helped me find the perfect home in DHA and made the whole process smooth and stress-free.",
+      "rating": 4,
+      "icon": "UserCircle",
+      "quoteIcon": "Quote"
+    },
+    {
+      "name": "Rana Burhan",
+      "feedback": "Highly recommended real estate company. Transparent dealings and great market knowledge helped me make the right decision.",
+      "rating": 4,
+      "icon": "UserCircle",
+      "quoteIcon": "Quote"
+    }
+  ]
+}

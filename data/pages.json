@@ -1,0 +1,70 @@
+{
+  "home": {
+    "enabled": true,
+    "sections": {
+      "hero": true,
+      "servicesPreview": true,
+      "projectsPreview": true,
+      "testimonialsPreview": true,
+      "cta": true
+    }
+  },
+
+  "projects": {
+    "enabled": true,
+    "sections": {
+      "hero": true,
+      "projectList": true,
+      "filters": true
+    }
+  },
+
+  "services": {
+    "enabled": true,
+    "sections": {
+      "hero": true,
+      "serviceList": true,
+      "pricing": true,
+      "faq": true
+    }
+  },
+
+  "about": {
+    "enabled": true,
+    "sections": {
+      "hero": true,
+      "story": true,
+      "mission": true
+    }
+  },
+
+  "team": {
+    "enabled": true,
+    "sections": {
+      "hero": true,
+      "members": true
+    }
+  },
+
+  "testimonials": {
+    "enabled": true,
+    "sections": {
+      "hero": true,
+      "reviews": true
+    }
+  },
+
+  "contact": {
+    "enabled": true,
+    "sections": {
+      "hero": true,
+      "form": true,
+      "map": true
+    }
+  },
+  "globalSections": {
+    "navbar": true,
+    "footer": true,
+    "announcementBar": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "siteName": "Elite Real Estate",
+  "logo": "/media/Annotation 2026-04-27 225645.png",
+  "menu": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Projects",
+      "href": "/projects"
+    },
+    {
+      "label": "Services",
+      "href": "/services"
+    },
+    {
+      "label": "About Us",
+      "href": "/about"
+    },
+    {
+      "label": "Our Team",
+      "href": "/team"
+    },
+    {
+      "label": "Testimonials",
+      "href": "/testimonials"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/contact-us"
+    }
+  ],
+  "ctaButton": {
+    "label": "Get Free Consultation",
+    "url": "tel:+92XXXXXXXXXX",
+    "icon": "Phone"
+  },
+  "visibleCount": 4
+}

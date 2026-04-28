@@ -1,0 +1,58 @@
+{
+  "badge": {
+    "text": "Featured Projects",
+    "icon": "Star"
+  },
+  "heading": "Our Featured Projects",
+  "description": "Explore some of our successfully delivered and ongoing real estate projects, showcasing quality construction, prime locations, and modern living standards.",
+  "viewAllCta": {
+    "text": "View All Projects",
+    "url": "/projects",
+    "icon": "Building2",
+    "rightIcon": "ArrowRight"
+  },
+  "projects": [
+    {
+      "src": "https://images.pexels.com/photos/14467554/pexels-photo-14467554.jpeg",
+      "alt": "Luxury villa in DHA",
+      "title": "Luxury Villas",
+      "location": "DHA Karachi",
+      "icon": "Building2"
+    },
+    {
+      "src": "https://images.pexels.com/photos/32772055/pexels-photo-32772055.jpeg",
+      "alt": "Modern apartments in Bahria Town",
+      "title": "Modern Apartments",
+      "location": "Bahria Town Lahore",
+      "icon": "Building2"
+    },
+    {
+      "src": "https://images.pexels.com/photos/34281362/pexels-photo-34281362.jpeg",
+      "alt": "Commercial plaza in city center",
+      "title": "City Center Plaza",
+      "location": "Karachi City Center",
+      "icon": "Building2"
+    },
+    {
+      "src": "https://images.pexels.com/photos/37125453/pexels-photo-37125453.jpeg",
+      "alt": "Gated community housing project",
+      "title": "Green Valley Housing",
+      "location": "Islamabad",
+      "icon": "Building2"
+    },
+    {
+      "src": "https://images.pexels.com/photos/9136256/pexels-photo-9136256.jpeg",
+      "alt": "High-rise residential tower",
+      "title": "Skyline Residency",
+      "location": "Lahore",
+      "icon": "Building2"
+    },
+    {
+      "src": "https://images.pexels.com/photos/33308474/pexels-photo-33308474.jpeg",
+      "alt": "Elegant interior of furnished apartment",
+      "title": "Furnished Apartments",
+      "location": "Clifton Karachi",
+      "icon": "Building2"
+    }
+  ]
+}

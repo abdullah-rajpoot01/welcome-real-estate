@@ -1,0 +1,38 @@
+{
+  "heading": "About Our Company",
+  "subheading": "Trusted real estate experts committed to helping you find the right property and make smart investments.",
+  "badge": {
+    "text": "About Us",
+    "icon": "ShieldCheck"
+  },
+  "description": "We are a professional real estate company specializing in residential, commercial, and investment properties. With years of experience, we provide reliable property solutions with transparency, market expertise, and a client-first approach.",
+  "stats": [
+    {
+      "label": "Years Experience",
+      "value": "10+"
+    },
+    {
+      "label": "Properties Sold",
+      "value": "500+"
+    }
+  ],
+  "cta": {
+    "label": "Learn More",
+    "link": "/about",
+    "icon": "ArrowRight"
+  },
+  "highlights": [
+    {
+      "text": "Client-first approach in every deal",
+      "icon": "CheckCircle2"
+    },
+    {
+      "text": "Transparent and secure transactions",
+      "icon": "CheckCircle2"
+    },
+    {
+      "text": "Strong knowledge of local property market",
+      "icon": "CheckCircle2"
+    }
+  ]
+}

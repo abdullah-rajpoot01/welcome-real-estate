@@ -1,0 +1,40 @@
+{
+  "heading": "How We Process",
+  "subheading": "A simple and transparent step-by-step process to help you buy, sell, or invest in real estate with ease.",
+  "badge": {
+    "text": "Our Process",
+    "icon": "ShieldCheck"
+  },
+  "steps": [
+    {
+      "title": "Consultation",
+      "description": "We understand your requirements, budget, and property goals through a detailed consultation.",
+      "icon": "MessageSquare"
+    },
+    {
+      "title": "Property Selection",
+      "description": "We shortlist the best matching properties based on your needs and market availability.",
+      "icon": "Search"
+    },
+    {
+      "title": "Site Visits",
+      "description": "We arrange property visits so you can evaluate options before making a decision.",
+      "icon": "MapPin"
+    },
+    {
+      "title": "Negotiation",
+      "description": "We help you get the best possible deal through professional price negotiation.",
+      "icon": "HandshakeIcon"
+    },
+    {
+      "title": "Documentation",
+      "description": "We handle all legal paperwork and ensure a smooth and secure transaction process.",
+      "icon": "FileText"
+    },
+    {
+      "title": "Handover",
+      "description": "Once everything is completed, we ensure a hassle-free property handover to you.",
+      "icon": "KeyRound"
+    }
+  ]
+}

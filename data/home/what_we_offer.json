@@ -1,0 +1,58 @@
+{
+  "badge": {
+    "text": "Our Services",
+    "icon": "Home"
+  },
+  "heading": "What We Offer",
+  "description": "We provide a complete range of real estate services to help you buy, sell, and invest with confidence and ease.",
+  "viewAllCta": {
+    "text": "View All Services",
+    "url": "/services",
+    "icon": "Building2",
+    "rightIcon": "ArrowRight"
+  },
+  "services": [
+    {
+      "title": "Property Buying",
+      "description": "Find your ideal home or investment property from our verified listings in prime locations.",
+      "icon": "Home",
+      "ctaText": "Learn more",
+      "ctaUrl": "/services/buying"
+    },
+    {
+      "title": "Property Selling",
+      "description": "Sell your property faster with our expert marketing strategies and wide buyer network.",
+      "icon": "TrendingUp",
+      "ctaText": "Learn more",
+      "ctaUrl": "/services/selling"
+    },
+    {
+      "title": "Property Investment",
+      "description": "Get professional advice on high-return investment opportunities tailored to your goals.",
+      "icon": "Building2",
+      "ctaText": "Learn more",
+      "ctaUrl": "/services/investment"
+    },
+    {
+      "title": "Property Management",
+      "description": "Let us handle tenant management, maintenance, and rent collection for your properties.",
+      "icon": "ClipboardList",
+      "ctaText": "Learn more",
+      "ctaUrl": "/services/management"
+    },
+    {
+      "title": "Home Valuation",
+      "description": "Receive accurate and market-driven property valuations from our experienced agents.",
+      "icon": "Calculator",
+      "ctaText": "Get valuation",
+      "ctaUrl": "tel:+923001234567"
+    },
+    {
+      "title": "Consultation & Legal Support",
+      "description": "Get guidance on documentation, legal processes, and secure transactions.",
+      "icon": "Scale",
+      "ctaText": "Book consultation",
+      "ctaUrl": "https://wa.me/923001234567"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "badge": {
+    "text": "Contact Us",
+    "icon": "ShieldCheck"
+  },
+  "heading": "Get in Touch",
+  "subheading": "We're here to help you with buying, selling, and investing in real estate. Contact us anytime for expert guidance.",
+  "businessHours": {
+    "icon": "Clock",
+    "title": "Business Hours",
+    "schedules": [
+      "Mon – Sat: 9:00 AM – 7:00 PM",
+      "Sunday: By appointment only"
+    ]
+  },
+  "socialLinks": [
+    {
+      "platform": "Facebook",
+      "href": "https://facebook.com/realestate",
+      "icon": "Facebook"
+    },
+    {
+      "platform": "Instagram",
+      "href": "https://instagram.com/realestate",
+      "icon": "Instagram"
+    },
+    {
+      "platform": "LinkedIn",
+      "href": "https://linkedin.com/company/realestate",
+      "icon": "LinkedIn"
+    },
+    {
+      "platform": "YouTube",
+      "href": "https://youtube.com/@realestate",
+      "icon": "YouTube"
+    }
+  ],
+  "contactCards": [
+    {
+      "label": "Phone",
+      "value": "+92XXXXXXXXXX",
+      "href": "tel:+92XXXXXXXXXX",
+      "icon": "Phone",
+      "external": false
+    },
+    {
+      "label": "WhatsApp",
+      "value": "Chat with us on WhatsApp",
+      "href": "https://wa.me/92XXXXXXXXXX",
+      "icon": "WhatsApp",
+      "external": true
+    },
+    {
+      "label": "Email",
+      "value": "info@realestate.com",
+      "href": "mailto:info@realestate.com",
+      "icon": "Mail",
+      "external": false
+    },
+    {
+      "label": "Address",
+      "value": "123 Property Avenue, City Center, Karachi, Pakistan",
+      "href": "",
+      "icon": "MapPin",
+      "external": false
+    }
+  ],
+  "map": {
+    "embedUrl": "https://www.google.com/maps/embed?..."
+  },
+  "bottomCard": {
+    "title": "Visit Our Office",
+    "description": "123 Property Avenue, City Center, Karachi, Pakistan",
+    "icon": "MapPin"
+  },
+  "bottomCTA": {
+    "text": "Chat with us on WhatsApp",
+    "url": "https://wa.me/92XXXXXXXXXX",
+    "icon": "WhatsApp"
+  }
+}

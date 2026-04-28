@@ -1,0 +1,1829 @@
+{
+  "$schema": "https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json",
+  "backend": {
+    "name": "github",
+    "repo": "abdullah-rajpoot01/welcome-real-estate"
+  },
+  "media_folder": "/public/media",
+  "public_folder": "/media",
+  "collections": [
+    {
+      "name": "home_page",
+      "label": "Home Page",
+      "files": [
+        {
+          "name": "hero_section",
+          "label": "Hero Section",
+          "file": "/content/home/hero_section.json",
+          "fields": [
+            {
+              "label": "Badge",
+              "name": "badge",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string",
+                  "default": "Trusted Real Estate Experts"
+                },
+                {
+                  "label": "Icon",
+                  "name": "icon",
+                  "widget": "string",
+                  "default": "ShieldCheck"
+                }
+              ]
+            },
+            {
+              "label": "Title",
+              "name": "title",
+              "widget": "string",
+              "default": "Find Your Dream Home with Confidence"
+            },
+            {
+              "label": "Description",
+              "name": "description",
+              "widget": "text",
+              "default": "Explore premium properties, get expert guidance, and make the right investment with our experienced real estate team by your side."
+            },
+            {
+              "label": "Call to Actions",
+              "name": "ctas",
+              "widget": "list",
+              "default": [
+                {
+                  "text": "Call an Agent",
+                  "url": "tel:+923001234567",
+                  "icon": "Phone"
+                },
+                {
+                  "text": "Chat on WhatsApp",
+                  "url": "https://wa.me/923001234567",
+                  "icon": "WhatsApp"
+                }
+              ],
+              "fields": [
+                { "label": "Text", "name": "text", "widget": "string" },
+                { "label": "URL", "name": "url", "widget": "string" },
+                { "label": "Icon", "name": "icon", "widget": "string" }
+              ]
+            },
+            {
+              "label": "Image",
+              "name": "image",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Source",
+                  "name": "src",
+                  "widget": "image",
+                  "default": "https://images.pexels.com/photos/34450819/pexels-photo-34450819.jpeg"
+                },
+                {
+                  "label": "Alt Text",
+                  "name": "alt",
+                  "widget": "string",
+                  "default": "Modern house exterior with beautiful landscaping"
+                }
+              ]
+            },
+            {
+              "label": "Highlights Icon",
+              "name": "highlightsIcon",
+              "widget": "string",
+              "default": "CheckCircle2"
+            },
+            {
+              "label": "Highlights",
+              "name": "highlights",
+              "widget": "list",
+              "summary": "{{fields.value}}",
+              "field": {
+                "label": "Feature",
+                "name": "value",
+                "widget": "string"
+              },
+              "default": [
+                "Verified property listings",
+                "Prime locations",
+                "Flexible payment plans",
+                "Expert investment advice"
+              ]
+            },
+            {
+              "label": "Info Cards",
+              "name": "cards",
+              "widget": "list",
+              "default": [
+                {
+                  "title": "Buy Property",
+                  "description": "Discover a wide range of residential and commercial properties in top locations tailored to your budget.",
+                  "icon": "Home"
+                },
+                {
+                  "title": "Sell Your Property",
+                  "description": "List your property with us and reach serious buyers quickly with our proven marketing strategies.",
+                  "icon": "TrendingUp"
+                }
+              ],
+              "fields": [
+                { "label": "Title", "name": "title", "widget": "string" },
+                {
+                  "label": "Description",
+                  "name": "description",
+                  "widget": "text"
+                },
+                { "label": "Icon", "name": "icon", "widget": "string" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "why_choose_us",
+          "label": "Why Choose Us",
+          "file": "/content/home/why_choose_us.json",
+          "fields": [
+            {
+              "label": "Heading",
+              "name": "heading",
+              "widget": "string",
+              "default": "Why Choose Us"
+            },
+            {
+              "label": "Subheading",
+              "name": "subheading",
+              "widget": "string",
+              "default": "We are committed to delivering trusted, reliable, and result-driven real estate services."
+            },
+            {
+              "label": "Badge",
+              "name": "badge",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string",
+                  "default": "Why Us"
+                },
+                {
+                  "label": "Icon",
+                  "name": "icon",
+                  "widget": "string",
+                  "default": "ShieldCheck"
+                }
+              ]
+            },
+            {
+              "label": "Points",
+              "name": "points",
+              "widget": "list",
+              "default": [
+                {
+                  "title": "Experienced Real Estate Experts",
+                  "description": "Our team has years of experience in buying, selling, and managing properties.",
+                  "icon": "ShieldCheck"
+                },
+                {
+                  "title": "Prime Property Listings",
+                  "description": "We offer verified properties in top locations with high investment potential.",
+                  "icon": "Gavel"
+                },
+                {
+                  "title": "Client-Focused Approach",
+                  "description": "We prioritize your needs and guide you at every step of the process.",
+                  "icon": "Users"
+                },
+                {
+                  "title": "Transparent Deals",
+                  "description": "We ensure clear documentation and honest transactions with no hidden charges.",
+                  "icon": "Banknote"
+                },
+                {
+                  "title": "Strong Market Knowledge",
+                  "description": "We provide insights based on real market trends to help you make smart decisions.",
+                  "icon": "TrendingUp"
+                }
+              ],
+              "fields": [
+                { "label": "Title", "name": "title", "widget": "string" },
+                {
+                  "label": "Description",
+                  "name": "description",
+                  "widget": "text"
+                },
+                { "label": "Icon", "name": "icon", "widget": "string" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "projects_page",
+      "label": "Projects Page",
+      "files": [
+        {
+          "name": "projects",
+          "label": "Projects",
+          "file": "/content/projects/projects.json",
+          "fields": [
+            {
+              "label": "Badge",
+              "name": "badge",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string",
+                  "default": "Featured Projects"
+                },
+                {
+                  "label": "Icon",
+                  "name": "icon",
+                  "widget": "string",
+                  "default": "Star"
+                }
+              ]
+            },
+            {
+              "label": "Heading",
+              "name": "heading",
+              "widget": "string",
+              "default": "Our Featured Projects"
+            },
+            {
+              "label": "Description",
+              "name": "description",
+              "widget": "text",
+              "default": "Explore some of our successfully delivered and ongoing real estate projects, showcasing quality construction, prime locations, and modern living standards."
+            },
+            {
+              "label": "View All CTA",
+              "name": "viewAllCta",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string",
+                  "default": "View All Projects"
+                },
+                {
+                  "label": "URL",
+                  "name": "url",
+                  "widget": "string",
+                  "default": "/projects"
+                },
+                {
+                  "label": "Icon",
+                  "name": "icon",
+                  "widget": "string",
+                  "default": "Building2"
+                },
+                {
+                  "label": "Right Icon",
+                  "name": "rightIcon",
+                  "widget": "string",
+                  "default": "ArrowRight"
+                }
+              ]
+            },
+            {
+              "label": "Projects List",
+              "name": "projects",
+              "widget": "list",
+              "default": [
+                {
+                  "src": "https://images.pexels.com/photos/14467554/pexels-photo-14467554.jpeg",
+                  "alt": "Luxury villa in DHA",
+                  "title": "Luxury Villas",
+                  "location": "DHA Karachi",
+                  "icon": "Building2"
+                },
+                {
+                  "src": "https://images.pexels.com/photos/32772055/pexels-photo-32772055.jpeg",
+                  "alt": "Modern apartments in Bahria Town",
+                  "title": "Modern Apartments",
+                  "location": "Bahria Town Lahore",
+                  "icon": "Building2"
+                },
+                {
+                  "src": "https://images.pexels.com/photos/34281362/pexels-photo-34281362.jpeg",
+                  "alt": "Commercial plaza in city center",
+                  "title": "City Center Plaza",
+                  "location": "Karachi City Center",
+                  "icon": "Building2"
+                },
+                {
+                  "src": "https://images.pexels.com/photos/37125453/pexels-photo-37125453.jpeg",
+                  "alt": "Gated community housing project",
+                  "title": "Green Valley Housing",
+                  "location": "Islamabad",
+                  "icon": "Building2"
+                },
+                {
+                  "src": "https://images.pexels.com/photos/9136256/pexels-photo-9136256.jpeg",
+                  "alt": "High-rise residential tower",
+                  "title": "Skyline Residency",
+                  "location": "Lahore",
+                  "icon": "Building2"
+                },
+                {
+                  "src": "https://images.pexels.com/photos/33308474/pexels-photo-33308474.jpeg",
+                  "alt": "Elegant interior of furnished apartment",
+                  "title": "Furnished Apartments",
+                  "location": "Clifton Karachi",
+                  "icon": "Building2"
+                }
+              ],
+              "fields": [
+                { "label": "Image Source", "name": "src", "widget": "image" },
+                { "label": "Alt Text", "name": "alt", "widget": "string" },
+                {
+                  "label": "Project Title",
+                  "name": "title",
+                  "widget": "string"
+                },
+                { "label": "Location", "name": "location", "widget": "string" },
+                { "label": "Icon", "name": "icon", "widget": "string" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "team_page",
+      "label": "Team Page",
+      "files": [
+        {
+          "name": "team",
+          "label": "Team Section",
+          "file": "/content/team/team.json",
+          "fields": [
+            {
+              "label": "Heading",
+              "name": "heading",
+              "widget": "string",
+              "default": "Meet the Legal Minds Behind Your Case"
+            },
+            {
+              "label": "Subheading",
+              "name": "subheading",
+              "widget": "string",
+              "default": "A dedicated team of experienced attorneys committed to delivering justice."
+            },
+            {
+              "label": "Badge",
+              "name": "badge",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string",
+                  "default": "Our Team"
+                },
+                {
+                  "label": "Icon",
+                  "name": "icon",
+                  "widget": "string",
+                  "default": "Users"
+                }
+              ]
+            },
+            {
+              "label": "View All CTA",
+              "name": "viewAllCta",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string",
+                  "default": "View All Team"
+                },
+                {
+                  "label": "URL",
+                  "name": "url",
+                  "widget": "string",
+                  "default": "/team"
+                },
+                {
+                  "label": "Icon",
+                  "name": "icon",
+                  "widget": "string",
+                  "default": "Building2"
+                },
+                {
+                  "label": "Right Icon",
+                  "name": "rightIcon",
+                  "widget": "string",
+                  "default": "ArrowRight"
+                }
+              ]
+            },
+            {
+              "label": "Team Members",
+              "name": "members",
+              "widget": "list",
+              "default": [
+                {
+                  "name": "Adv. Tariq Mehmood",
+                  "role": "Senior Partner",
+                  "bio": "20+ years in criminal and constitutional law. Known for landmark High Court victories.",
+                  "image": "https://waqarandwaqar.com/wp-content/uploads/2026/01/Muhammad-Shoaib.webp",
+                  "socialLinks": [
+                    {
+                      "platform": "WhatsApp",
+                      "href": "https://wa.me/923001234569",
+                      "icon": "WhatsApp"
+                    },
+                    {
+                      "platform": "Phone",
+                      "href": "tel:+923001234569",
+                      "icon": "Phone"
+                    },
+                    {
+                      "platform": "Email",
+                      "href": "mailto:bilal@yourlawfirm.com",
+                      "icon": "Mail"
+                    },
+                    {
+                      "platform": "Facebook",
+                      "href": "https://facebook.com",
+                      "icon": "Facebook"
+                    },
+                    {
+                      "platform": "LinkedIn",
+                      "href": "https://linkedin.com",
+                      "icon": "LinkedIn"
+                    },
+                    {
+                      "platform": "Twitter",
+                      "href": "https://twitter.com",
+                      "icon": "Twitter"
+                    }
+                  ]
+                },
+                {
+                  "name": "Adv. Sana Rizvi",
+                  "role": "Corporate Law",
+                  "bio": "Specialist in corporate litigation, mergers, and commercial contract disputes.",
+                  "image": "https://waqarandwaqar.com/wp-content/uploads/2026/01/Sadat-Khan.webp",
+                  "socialLinks": [
+                    {
+                      "platform": "WhatsApp",
+                      "href": "https://wa.me/923001234569",
+                      "icon": "WhatsApp"
+                    },
+                    {
+                      "platform": "Phone",
+                      "href": "tel:+923001234569",
+                      "icon": "Phone"
+                    },
+                    {
+                      "platform": "Email",
+                      "href": "mailto:bilal@yourlawfirm.com",
+                      "icon": "Mail"
+                    },
+                    {
+                      "platform": "Facebook",
+                      "href": "https://facebook.com",
+                      "icon": "Facebook"
+                    },
+                    {
+                      "platform": "LinkedIn",
+                      "href": "https://linkedin.com",
+                      "icon": "LinkedIn"
+                    },
+                    {
+                      "platform": "Twitter",
+                      "href": "https://twitter.com",
+                      "icon": "Twitter"
+                    }
+                  ]
+                },
+                {
+                  "name": "Adv. Bilal Hassan",
+                  "role": "Family Law",
+                  "bio": "Trusted counsel for family matters including divorce, custody, and inheritance cases.",
+                  "image": "https://waqarandwaqar.com/wp-content/uploads/2026/01/Muhammad-Riaz-Awan.webp",
+                  "socialLinks": [
+                    {
+                      "platform": "WhatsApp",
+                      "href": "https://wa.me/923001234569",
+                      "icon": "WhatsApp"
+                    },
+                    {
+                      "platform": "Phone",
+                      "href": "tel:+923001234569",
+                      "icon": "Phone"
+                    },
+                    {
+                      "platform": "Email",
+                      "href": "mailto:bilal@yourlawfirm.com",
+                      "icon": "Mail"
+                    },
+                    {
+                      "platform": "Facebook",
+                      "href": "https://facebook.com",
+                      "icon": "Facebook"
+                    },
+                    {
+                      "platform": "LinkedIn",
+                      "href": "https://linkedin.com",
+                      "icon": "LinkedIn"
+                    },
+                    {
+                      "platform": "Twitter",
+                      "href": "https://twitter.com",
+                      "icon": "Twitter"
+                    }
+                  ]
+                }
+              ],
+              "fields": [
+                { "label": "Name", "name": "name", "widget": "string" },
+                { "label": "Role", "name": "role", "widget": "string" },
+                { "label": "Bio", "name": "bio", "widget": "text" },
+                { "label": "Image", "name": "image", "widget": "image" },
+                {
+                  "label": "Social Links",
+                  "name": "socialLinks",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "label": "Platform",
+                      "name": "platform",
+                      "widget": "string"
+                    },
+                    { "label": "Link", "name": "href", "widget": "string" },
+                    { "label": "Icon", "name": "icon", "widget": "string" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "services_page",
+      "label": "Services Page",
+      "files": [
+        {
+          "name": "services",
+          "label": "Services ",
+          "file": "/content/services/services.json",
+          "fields": [
+            {
+              "label": "Badge",
+              "name": "badge",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string",
+                  "default": "Our Services"
+                },
+                {
+                  "label": "Icon",
+                  "name": "icon",
+                  "widget": "string",
+                  "default": "Home"
+                }
+              ]
+            },
+            {
+              "label": "Heading",
+              "name": "heading",
+              "widget": "string",
+              "default": "What We Offer"
+            },
+            {
+              "label": "Description",
+              "name": "description",
+              "widget": "text",
+              "default": "We provide a complete range of real estate services to help you buy, sell, and invest with confidence and ease."
+            },
+            {
+              "label": "View All CTA",
+              "name": "viewAllCta",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string",
+                  "default": "View All Services"
+                },
+                {
+                  "label": "URL",
+                  "name": "url",
+                  "widget": "string",
+                  "default": "/services"
+                },
+                {
+                  "label": "Icon",
+                  "name": "icon",
+                  "widget": "string",
+                  "default": "Building2"
+                },
+                {
+                  "label": "Right Icon",
+                  "name": "rightIcon",
+                  "widget": "string",
+                  "default": "ArrowRight"
+                }
+              ]
+            },
+            {
+              "label": "Services List",
+              "name": "services",
+              "widget": "list",
+              "default": [
+                {
+                  "title": "Property Buying",
+                  "description": "Find your ideal home or investment property from our verified listings in prime locations.",
+                  "icon": "Home",
+                  "ctaText": "Learn more",
+                  "ctaUrl": "/services/buying"
+                },
+                {
+                  "title": "Property Selling",
+                  "description": "Sell your property faster with our expert marketing strategies and wide buyer network.",
+                  "icon": "TrendingUp",
+                  "ctaText": "Learn more",
+                  "ctaUrl": "/services/selling"
+                },
+                {
+                  "title": "Property Investment",
+                  "description": "Get professional advice on high-return investment opportunities tailored to your goals.",
+                  "icon": "Building2",
+                  "ctaText": "Learn more",
+                  "ctaUrl": "/services/investment"
+                },
+                {
+                  "title": "Property Management",
+                  "description": "Let us handle tenant management, maintenance, and rent collection for your properties.",
+                  "icon": "ClipboardList",
+                  "ctaText": "Learn more",
+                  "ctaUrl": "/services/management"
+                },
+                {
+                  "title": "Home Valuation",
+                  "description": "Receive accurate and market-driven property valuations from our experienced agents.",
+                  "icon": "Calculator",
+                  "ctaText": "Get valuation",
+                  "ctaUrl": "tel:+923001234567"
+                },
+                {
+                  "title": "Consultation & Legal Support",
+                  "description": "Get guidance on documentation, legal processes, and secure transactions.",
+                  "icon": "Scale",
+                  "ctaText": "Book consultation",
+                  "ctaUrl": "https://wa.me/923001234567"
+                }
+              ],
+              "fields": [
+                { "label": "Title", "name": "title", "widget": "string" },
+                {
+                  "label": "Description",
+                  "name": "description",
+                  "widget": "text"
+                },
+                { "label": "Icon", "name": "icon", "widget": "string" },
+                { "label": "CTA Text", "name": "ctaText", "widget": "string" },
+                { "label": "CTA URL", "name": "ctaUrl", "widget": "string" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "about_page",
+      "label": "About Page",
+      "files": [
+        {
+          "name": "about_us",
+          "label": "About Us",
+          "file": "/content/about/about_us.json",
+          "fields": [
+            {
+              "label": "Heading",
+              "name": "heading",
+              "widget": "string",
+              "default": "About Our Company"
+            },
+            {
+              "label": "Subheading",
+              "name": "subheading",
+              "widget": "string",
+              "default": "Trusted real estate experts committed to helping you find the right property and make smart investments."
+            },
+            {
+              "label": "Badge",
+              "name": "badge",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string",
+                  "default": "About Us"
+                },
+                {
+                  "label": "Icon",
+                  "name": "icon",
+                  "widget": "string",
+                  "default": "ShieldCheck"
+                }
+              ]
+            },
+            {
+              "label": "Description",
+              "name": "description",
+              "widget": "text",
+              "default": "We are a professional real estate company specializing in residential, commercial, and investment properties. With years of experience, we provide reliable property solutions with transparency, market expertise, and a client-first approach."
+            },
+            {
+              "label": "Statistics",
+              "name": "stats",
+              "widget": "list",
+              "default": [
+                { "label": "Years Experience", "value": "10+" },
+                { "label": "Properties Sold", "value": "500+" }
+              ],
+              "fields": [
+                { "label": "Label", "name": "label", "widget": "string" },
+                { "label": "Value", "name": "value", "widget": "string" }
+              ]
+            },
+            {
+              "label": "Call to Action",
+              "name": "cta",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Label",
+                  "name": "label",
+                  "widget": "string",
+                  "default": "Learn More"
+                },
+                {
+                  "label": "Link",
+                  "name": "link",
+                  "widget": "string",
+                  "default": "/about"
+                },
+                {
+                  "label": "Icon",
+                  "name": "icon",
+                  "widget": "string",
+                  "default": "ArrowRight"
+                }
+              ]
+            },
+            {
+              "label": "Highlights",
+              "name": "highlights",
+              "widget": "list",
+              "default": [
+                {
+                  "text": "Client-first approach in every deal",
+                  "icon": "CheckCircle2"
+                },
+                {
+                  "text": "Transparent and secure transactions",
+                  "icon": "CheckCircle2"
+                },
+                {
+                  "text": "Strong knowledge of local property market",
+                  "icon": "CheckCircle2"
+                }
+              ],
+              "fields": [
+                { "label": "Text", "name": "text", "widget": "string" },
+                { "label": "Icon", "name": "icon", "widget": "string" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "our_process",
+          "label": "Our Process",
+          "file": "/content/about/process.json",
+          "fields": [
+            {
+              "label": "Heading",
+              "name": "heading",
+              "widget": "string",
+              "default": "How We Process"
+            },
+            {
+              "label": "Subheading",
+              "name": "subheading",
+              "widget": "text",
+              "default": "A simple and transparent step-by-step process to help you buy, sell, or invest in real estate with ease."
+            },
+            {
+              "label": "Badge",
+              "name": "badge",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string",
+                  "default": "Our Process"
+                },
+                {
+                  "label": "Icon",
+                  "name": "icon",
+                  "widget": "string",
+                  "default": "ShieldCheck"
+                }
+              ]
+            },
+            {
+              "label": "Steps",
+              "name": "steps",
+              "widget": "list",
+              "default": [
+                {
+                  "title": "Consultation",
+                  "description": "We understand your requirements, budget, and property goals through a detailed consultation.",
+                  "icon": "MessageSquare"
+                },
+                {
+                  "title": "Property Selection",
+                  "description": "We shortlist the best matching properties based on your needs and market availability.",
+                  "icon": "Search"
+                },
+                {
+                  "title": "Site Visits",
+                  "description": "We arrange property visits so you can evaluate options before making a decision.",
+                  "icon": "MapPin"
+                },
+                {
+                  "title": "Negotiation",
+                  "description": "We help you get the best possible deal through professional price negotiation.",
+                  "icon": "HandshakeIcon"
+                },
+                {
+                  "title": "Documentation",
+                  "description": "We handle all legal paperwork and ensure a smooth and secure transaction process.",
+                  "icon": "FileText"
+                },
+                {
+                  "title": "Handover",
+                  "description": "Once everything is completed, we ensure a hassle-free property handover to you.",
+                  "icon": "KeyRound"
+                }
+              ],
+              "fields": [
+                { "label": "Step Title", "name": "title", "widget": "string" },
+                {
+                  "label": "Description",
+                  "name": "description",
+                  "widget": "text"
+                },
+                { "label": "Icon", "name": "icon", "widget": "string" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "testimonials_page",
+      "label": "Testimonials",
+      "files": [
+        {
+          "name": "testimonials_section",
+          "label": "Client Testimonials",
+          "file": "/content/testimonials/testimonials.json",
+          "fields": [
+            {
+              "label": "Heading",
+              "name": "heading",
+              "widget": "string",
+              "default": "What Our Clients Say"
+            },
+            {
+              "label": "Subheading",
+              "name": "subheading",
+              "widget": "string",
+              "default": "Real feedback from clients who successfully bought, sold, and invested in properties with us."
+            },
+            {
+              "label": "Badge",
+              "name": "badge",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string",
+                  "default": "Testimonials"
+                },
+                {
+                  "label": "Icon",
+                  "name": "icon",
+                  "widget": "string",
+                  "default": "Star"
+                }
+              ]
+            },
+            {
+              "label": "View All CTA",
+              "name": "viewAllCta",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string",
+                  "default": "View All Testimonials"
+                },
+                {
+                  "label": "URL",
+                  "name": "url",
+                  "widget": "string",
+                  "default": "/testimonials"
+                },
+                {
+                  "label": "Icon",
+                  "name": "icon",
+                  "widget": "string",
+                  "default": "Building2"
+                },
+                {
+                  "label": "Right Icon",
+                  "name": "rightIcon",
+                  "widget": "string",
+                  "default": "ArrowRight"
+                }
+              ]
+            },
+            {
+              "label": "Testimonials List",
+              "name": "testimonials",
+              "widget": "list",
+              "collapsed": true,
+              "default": [
+                {
+                  "name": "Ahmed Khan",
+                  "feedback": "Excellent service! They helped me find the perfect home in DHA and made the whole process smooth and stress-free.",
+                  "rating": 5,
+                  "icon": "UserCircle",
+                  "quoteIcon": "Quote"
+                },
+                {
+                  "name": "Sara Ali",
+                  "feedback": "Very professional and trustworthy team. They guided me step by step while buying my first investment property.",
+                  "rating": 5,
+                  "icon": "UserCircle",
+                  "quoteIcon": "Quote"
+                },
+                {
+                  "name": "Muhammad Usman",
+                  "feedback": "Highly recommended real estate company. Transparent dealings and great market knowledge helped me make the right decision.",
+                  "rating": 5,
+                  "icon": "UserCircle",
+                  "quoteIcon": "Quote"
+                }
+              ],
+              "fields": [
+                { "label": "Client Name", "name": "name", "widget": "string" },
+                { "label": "Feedback", "name": "feedback", "widget": "text" },
+                {
+                  "label": "Rating",
+                  "name": "rating",
+                  "widget": "number",
+                  "value_type": "int",
+                  "min": 1,
+                  "max": 5
+                },
+                { "label": "User Icon", "name": "icon", "widget": "string" },
+                {
+                  "label": "Quote Icon",
+                  "name": "quoteIcon",
+                  "widget": "string"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "basic_settings",
+      "label": "Basic Settings",
+      "files": [
+        {
+          "name": "header_settings",
+          "label": "Header Settings",
+          "file": "/content/basic/header.json",
+          "fields": [
+            {
+              "label": "Site Name",
+              "name": "siteName",
+              "widget": "string",
+              "default": "Elite Real Estate"
+            },
+            {
+              "label": "Logo Image",
+              "name": "logo",
+              "widget": "image",
+              "default": "/images/logo.png"
+            },
+            {
+              "label": "Menu Links",
+              "name": "menu",
+              "widget": "list",
+              "default": [
+                { "label": "Home", "href": "/" },
+                { "label": "Projects", "href": "/projects" },
+                { "label": "Services", "href": "/services" },
+                { "label": "About", "href": "/about" },
+                { "label": "Team", "href": "/team" },
+                { "label": "Testimonials", "href": "/testimonials" },
+                { "label": "Contact", "href": "/contact-us" }
+              ],
+              "fields": [
+                { "label": "Label", "name": "label", "widget": "string" },
+                { "label": "URL/Href", "name": "href", "widget": "string" }
+              ]
+            },
+            {
+              "label": "CTA Button",
+              "name": "ctaButton",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Label",
+                  "name": "label",
+                  "widget": "string",
+                  "default": "Get Free Consultation"
+                },
+                {
+                  "label": "URL",
+                  "name": "url",
+                  "widget": "string",
+                  "default": "tel:+92XXXXXXXXXX"
+                },
+                {
+                  "label": "Icon",
+                  "name": "icon",
+                  "widget": "string",
+                  "default": "Phone"
+                }
+              ]
+            },
+            {
+              "label": "Visible Menu Count",
+              "name": "visibleCount",
+              "widget": "number",
+              "default": 4,
+              "value_type": "int"
+            }
+          ]
+        },
+        {
+          "name": "footer",
+          "label": "Footer",
+          "file": "/content/basic/footer.json",
+          "fields": [
+            {
+              "label": "Logo",
+              "name": "logo",
+              "widget": "image",
+              "default": "/images/logo.png"
+            },
+            {
+              "label": "Title",
+              "name": "title",
+              "widget": "string",
+              "default": "Elite Real Estate"
+            },
+            {
+              "label": "Description",
+              "name": "description",
+              "widget": "text",
+              "default": "Your trusted partner in finding the perfect property. We provide expert guidance and personalized service for all your real estate needs."
+            },
+            {
+              "label": "Quick Links",
+              "name": "quickLinks",
+              "widget": "list",
+              "default": [
+                { "label": "Home", "href": "/" },
+                { "label": "Projects", "href": "/projects" },
+                { "label": "Services", "href": "/services" },
+                { "label": "About", "href": "/about" },
+                { "label": "Team", "href": "/team" },
+                { "label": "Contact", "href": "/contact-us" },
+                { "label": "Privacy", "href": "/privacy-policy" },
+                {
+                  "label": "Terms And Conditions",
+                  "href": "/terms-conditions"
+                }
+              ],
+              "fields": [
+                { "label": "Label", "name": "label", "widget": "string" },
+                { "label": "URL", "name": "href", "widget": "string" }
+              ]
+            },
+            {
+              "label": "Phone",
+              "name": "phone",
+              "widget": "string",
+              "default": "+92 300 1234567"
+            },
+            {
+              "label": "Email",
+              "name": "email",
+              "widget": "string",
+              "default": "info@eliterealestate.com"
+            },
+            {
+              "label": "Address",
+              "name": "address",
+              "widget": "string",
+              "default": "123 Main Street, Gulberg, Lahore, Pakistan"
+            },
+            {
+              "label": "Social Links",
+              "name": "socialLinks",
+              "widget": "list",
+              "default": [
+                {
+                  "platform": "Facebook",
+                  "href": "https://facebook.com",
+                  "icon": "Facebook"
+                },
+                {
+                  "platform": "WhatsApp",
+                  "href": "https://wa.me/923001234567",
+                  "icon": "WhatsApp"
+                },
+                {
+                  "platform": "LinkedIn",
+                  "href": "https://linkedin.com",
+                  "icon": "LinkedIn"
+                },
+                {
+                  "platform": "Twitter",
+                  "href": "https://twitter.com",
+                  "icon": "Twitter"
+                }
+              ],
+              "fields": [
+                {
+                  "label": "Platform",
+                  "name": "platform",
+                  "widget": "string"
+                },
+                { "label": "URL", "name": "href", "widget": "string" },
+                { "label": "Icon", "name": "icon", "widget": "string" }
+              ]
+            },
+            {
+              "label": "Copyright Text",
+              "name": "copyright",
+              "widget": "string",
+              "default": "© 2024 Elite Real Estate. All rights reserved."
+            }
+          ]
+        },
+        {
+          "name": "cta_section",
+          "label": "CTA Section",
+          "file": "/content/basic/cta.json",
+          "fields": [
+            {
+              "label": "Heading",
+              "name": "heading",
+              "widget": "string",
+              "default": "Ready to Find Your Dream Property?"
+            },
+            {
+              "label": "Subheading",
+              "name": "subheading",
+              "widget": "text",
+              "default": "Contact us today for a free consultation with our experienced real estate team and get expert guidance on buying, selling, or investing."
+            },
+            {
+              "label": "Call to Action",
+              "name": "cta",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Label",
+                  "name": "label",
+                  "widget": "string",
+                  "default": "Contact Us"
+                },
+                {
+                  "label": "Link",
+                  "name": "link",
+                  "widget": "string",
+                  "default": "/contact-us"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "contact_page",
+      "label": "Contact Page",
+      "files": [
+        {
+          "name": "contact_section",
+          "label": "Contact Details",
+          "file": "/content/contact_us/contact.json",
+          "fields": [
+            {
+              "label": "Badge",
+              "name": "badge",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string",
+                  "default": "Contact Us"
+                },
+                {
+                  "label": "Icon",
+                  "name": "icon",
+                  "widget": "string",
+                  "default": "ShieldCheck"
+                }
+              ]
+            },
+            {
+              "label": "Heading",
+              "name": "heading",
+              "widget": "string",
+              "default": "Get in Touch"
+            },
+            {
+              "label": "Subheading",
+              "name": "subheading",
+              "widget": "text",
+              "default": "We're here to help you with buying, selling, and investing in real estate. Contact us anytime for expert guidance."
+            },
+            {
+              "label": "Business Hours",
+              "name": "businessHours",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Icon",
+                  "name": "icon",
+                  "widget": "string",
+                  "default": "Clock"
+                },
+                {
+                  "label": "Title",
+                  "name": "title",
+                  "widget": "string",
+                  "default": "Business Hours"
+                },
+                {
+                  "label": "Schedules",
+                  "name": "schedules",
+                  "widget": "list",
+                  "field": {
+                    "label": "Time",
+                    "name": "time",
+                    "widget": "string"
+                  },
+                  "default": [
+                    "Mon – Sat: 9:00 AM – 7:00 PM",
+                    "Sunday: By appointment only"
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Social Links",
+              "name": "socialLinks",
+              "widget": "list",
+              "default": [
+                {
+                  "platform": "Facebook",
+                  "href": "https://facebook.com/realestate",
+                  "icon": "Facebook"
+                },
+                {
+                  "platform": "Instagram",
+                  "href": "https://instagram.com/realestate",
+                  "icon": "Instagram"
+                },
+                {
+                  "platform": "LinkedIn",
+                  "href": "https://linkedin.com/company/realestate",
+                  "icon": "LinkedIn"
+                },
+                {
+                  "platform": "YouTube",
+                  "href": "https://youtube.com/@realestate",
+                  "icon": "YouTube"
+                }
+              ],
+              "fields": [
+                { "label": "Platform", "name": "platform", "widget": "string" },
+                { "label": "Link", "name": "href", "widget": "string" },
+                { "label": "Icon", "name": "icon", "widget": "string" }
+              ]
+            },
+            {
+              "label": "Contact Cards",
+              "name": "contactCards",
+              "widget": "list",
+              "default": [
+                {
+                  "label": "Phone",
+                  "value": "+92XXXXXXXXXX",
+                  "href": "tel:+92XXXXXXXXXX",
+                  "icon": "Phone",
+                  "external": false
+                },
+                {
+                  "label": "WhatsApp",
+                  "value": "Chat with us on WhatsApp",
+                  "href": "https://wa.me/92XXXXXXXXXX",
+                  "icon": "WhatsApp",
+                  "external": true
+                },
+                {
+                  "label": "Email",
+                  "value": "info@realestate.com",
+                  "href": "mailto:info@realestate.com",
+                  "icon": "Mail",
+                  "external": false
+                },
+                {
+                  "label": "Address",
+                  "value": "123 Property Avenue, City Center, Karachi, Pakistan",
+                  "href": "",
+                  "icon": "MapPin",
+                  "external": false
+                }
+              ],
+              "fields": [
+                { "label": "Label", "name": "label", "widget": "string" },
+                { "label": "Value", "name": "value", "widget": "string" },
+                {
+                  "label": "Link/Href",
+                  "name": "href",
+                  "widget": "string",
+                  "required": false
+                },
+                { "label": "Icon", "name": "icon", "widget": "string" },
+                {
+                  "label": "External Link?",
+                  "name": "external",
+                  "widget": "boolean"
+                }
+              ]
+            },
+            {
+              "label": "Map",
+              "name": "map",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Embed URL",
+                  "name": "embedUrl",
+                  "widget": "string",
+                  "default": "https://www.google.com/maps/embed?..."
+                }
+              ]
+            },
+            {
+              "label": "Bottom Card",
+              "name": "bottomCard",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Title",
+                  "name": "title",
+                  "widget": "string",
+                  "default": "Visit Our Office"
+                },
+                {
+                  "label": "Description",
+                  "name": "description",
+                  "widget": "string",
+                  "default": "123 Property Avenue, City Center, Karachi, Pakistan"
+                },
+                {
+                  "label": "Icon",
+                  "name": "icon",
+                  "widget": "string",
+                  "default": "MapPin"
+                }
+              ]
+            },
+            {
+              "label": "Bottom CTA",
+              "name": "bottomCTA",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Text",
+                  "name": "text",
+                  "widget": "string",
+                  "default": "Chat with us on WhatsApp"
+                },
+                {
+                  "label": "URL",
+                  "name": "url",
+                  "widget": "string",
+                  "default": "https://wa.me/92XXXXXXXXXX"
+                },
+                {
+                  "label": "Icon",
+                  "name": "icon",
+                  "widget": "string",
+                  "default": "WhatsApp"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "seo_metadata",
+      "label": "SEO Metadata",
+      "files": [
+        {
+          "name": "page_seo",
+          "label": "Page SEO Settings",
+          "file": "/content/metadata/seo.json",
+          "fields": [
+            {
+              "label": "Home Page SEO",
+              "name": "home",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "label": "Title",
+                  "name": "title",
+                  "widget": "string",
+                  "default": "Home"
+                },
+                {
+                  "label": "Description",
+                  "name": "description",
+                  "widget": "text",
+                  "default": "Welcome to our website"
+                },
+                {
+                  "label": "Image",
+                  "name": "image",
+                  "widget": "image",
+                  "default": "https://example.com/home.jpg"
+                },
+                {
+                  "label": "URL",
+                  "name": "url",
+                  "widget": "string",
+                  "default": "https://example.com/"
+                },
+                {
+                  "label": "Type",
+                  "name": "type",
+                  "widget": "string",
+                  "default": "website"
+                }
+              ]
+            },
+            {
+              "label": "Projects Page SEO",
+              "name": "projects",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "label": "Title",
+                  "name": "title",
+                  "widget": "string",
+                  "default": "Projects"
+                },
+                {
+                  "label": "Description",
+                  "name": "description",
+                  "widget": "text",
+                  "default": "Explore our latest projects"
+                },
+                {
+                  "label": "Image",
+                  "name": "image",
+                  "widget": "image",
+                  "default": "https://example.com/projects.jpg"
+                },
+                {
+                  "label": "URL",
+                  "name": "url",
+                  "widget": "string",
+                  "default": "https://example.com/projects"
+                },
+                {
+                  "label": "Type",
+                  "name": "type",
+                  "widget": "string",
+                  "default": "website"
+                }
+              ]
+            },
+            {
+              "label": "Services Page SEO",
+              "name": "services",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "label": "Title",
+                  "name": "title",
+                  "widget": "string",
+                  "default": "Services"
+                },
+                {
+                  "label": "Description",
+                  "name": "description",
+                  "widget": "text",
+                  "default": "Discover the services we offer"
+                },
+                {
+                  "label": "Image",
+                  "name": "image",
+                  "widget": "image",
+                  "default": "https://example.com/services.jpg"
+                },
+                {
+                  "label": "URL",
+                  "name": "url",
+                  "widget": "string",
+                  "default": "https://example.com/services"
+                },
+                {
+                  "label": "Type",
+                  "name": "type",
+                  "widget": "string",
+                  "default": "website"
+                }
+              ]
+            },
+            {
+              "label": "About Page SEO",
+              "name": "about",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "label": "Title",
+                  "name": "title",
+                  "widget": "string",
+                  "default": "About Us"
+                },
+                {
+                  "label": "Description",
+                  "name": "description",
+                  "widget": "text",
+                  "default": "Learn more about our company"
+                },
+                {
+                  "label": "Image",
+                  "name": "image",
+                  "widget": "image",
+                  "default": "https://example.com/about.jpg"
+                },
+                {
+                  "label": "URL",
+                  "name": "url",
+                  "widget": "string",
+                  "default": "https://example.com/about"
+                },
+                {
+                  "label": "Type",
+                  "name": "type",
+                  "widget": "string",
+                  "default": "website"
+                }
+              ]
+            },
+            {
+              "label": "Team Page SEO",
+              "name": "team",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "label": "Title",
+                  "name": "title",
+                  "widget": "string",
+                  "default": "Our Team"
+                },
+                {
+                  "label": "Description",
+                  "name": "description",
+                  "widget": "text",
+                  "default": "Meet our team members"
+                },
+                {
+                  "label": "Image",
+                  "name": "image",
+                  "widget": "image",
+                  "default": "https://example.com/team.jpg"
+                },
+                {
+                  "label": "URL",
+                  "name": "url",
+                  "widget": "string",
+                  "default": "https://example.com/team"
+                },
+                {
+                  "label": "Type",
+                  "name": "type",
+                  "widget": "string",
+                  "default": "website"
+                }
+              ]
+            },
+            {
+              "label": "Contact Page SEO",
+              "name": "contact",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "label": "Title",
+                  "name": "title",
+                  "widget": "string",
+                  "default": "Contact Us"
+                },
+                {
+                  "label": "Description",
+                  "name": "description",
+                  "widget": "text",
+                  "default": "Get in touch with us"
+                },
+                {
+                  "label": "Image",
+                  "name": "image",
+                  "widget": "image",
+                  "default": "https://example.com/contact.jpg"
+                },
+                {
+                  "label": "URL",
+                  "name": "url",
+                  "widget": "string",
+                  "default": "https://example.com/contact"
+                },
+                {
+                  "label": "Type",
+                  "name": "type",
+                  "widget": "string",
+                  "default": "website"
+                }
+              ]
+            },
+            {
+              "label": "Privacy Policy SEO",
+              "name": "privacy",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "label": "Title",
+                  "name": "title",
+                  "widget": "string",
+                  "default": "Privacy Policy"
+                },
+                {
+                  "label": "Description",
+                  "name": "description",
+                  "widget": "text",
+                  "default": "Read our privacy policy"
+                },
+                {
+                  "label": "Image",
+                  "name": "image",
+                  "widget": "image",
+                  "default": "https://example.com/privacy.jpg"
+                },
+                {
+                  "label": "URL",
+                  "name": "url",
+                  "widget": "string",
+                  "default": "https://example.com/privacy"
+                },
+                {
+                  "label": "Type",
+                  "name": "type",
+                  "widget": "string",
+                  "default": "website"
+                }
+              ]
+            },
+            {
+              "label": "Terms & Conditions SEO",
+              "name": "terms_and_conditions",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "label": "Title",
+                  "name": "title",
+                  "widget": "string",
+                  "default": "Terms and Conditions"
+                },
+                {
+                  "label": "Description",
+                  "name": "description",
+                  "widget": "text",
+                  "default": "Read our terms and conditions"
+                },
+                {
+                  "label": "Image",
+                  "name": "image",
+                  "widget": "image",
+                  "default": "https://example.com/terms.jpg"
+                },
+                {
+                  "label": "URL",
+                  "name": "url",
+                  "widget": "string",
+                  "default": "https://example.com/terms"
+                },
+                {
+                  "label": "Type",
+                  "name": "type",
+                  "widget": "string",
+                  "default": "website"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "privacy_page",
+      "label": "Privacy Policy",
+      "files": [
+        {
+          "name": "privacy_content",
+          "label": "Privacy Policy Content",
+          "file": "/content/privacy/privacy.mdx",
+          "fields": [
+            {
+              "label": "Body",
+              "name": "body",
+              "widget": "markdown",
+              "default": "## Our Commitment to Privacy\n\nYour privacy is important to us..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "terms_page",
+      "label": "Terms And Conditions",
+      "files": [
+        {
+          "name": "terms_content",
+          "label": "Terms And Conditions Content",
+          "file": "/content/terms_and_conditions/terms.mdx",
+          "fields": [
+            {
+              "label": "Body",
+              "name": "body",
+              "widget": "markdown",
+              "default": "## Our Commitment to Privacy\n\nYour privacy is important to us..."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "heading": "Meet the Legal Minds Behind Your Case",
+  "subheading": "A dedicated team of experienced attorneys committed to delivering justice.",
+  "badge": {
+    "text": "Our Team",
+    "icon": "Users"
+  },
+  "viewAllCta": {
+    "text": "View All Team",
+    "url": "/team",
+    "icon": "Building2",
+    "rightIcon": "ArrowRight"
+  },
+  "members": [
+    {
+      "name": "Adv. Tariq Mehmood",
+      "role": "Senior Partner",
+      "bio": "20+ years in criminal and constitutional law. Known for landmark High Court victories.",
+      "image": "https://waqarandwaqar.com/wp-content/uploads/2026/01/Muhammad-Shoaib.webp",
+      "socialLinks": [
+        {
+          "platform": "WhatsApp",
+          "href": "https://wa.me/923001234569",
+          "icon": "WhatsApp"
+        },
+        {
+          "platform": "Phone",
+          "href": "tel:+923001234569",
+          "icon": "Phone"
+        },
+        {
+          "platform": "Email",
+          "href": "mailto:bilal@yourlawfirm.com",
+          "icon": "Mail"
+        },
+        {
+          "platform": "Facebook",
+          "href": "https://facebook.com",
+          "icon": "Facebook"
+        },
+        {
+          "platform": "LinkedIn",
+          "href": "https://linkedin.com",
+          "icon": "LinkedIn"
+        },
+        {
+          "platform": "Twitter",
+          "href": "https://twitter.com",
+          "icon": "Twitter"
+        }
+      ]
+    },
+    {
+      "name": "Adv. Sana Rizvi",
+      "role": "Corporate Law",
+      "bio": "Specialist in corporate litigation, mergers, and commercial contract disputes.",
+      "image": "https://waqarandwaqar.com/wp-content/uploads/2026/01/Sadat-Khan.webp",
+      "socialLinks": [
+        {
+          "platform": "WhatsApp",
+          "href": "https://wa.me/923001234569",
+          "icon": "WhatsApp"
+        },
+        {
+          "platform": "Phone",
+          "href": "tel:+923001234569",
+          "icon": "Phone"
+        },
+        {
+          "platform": "Email",
+          "href": "mailto:bilal@yourlawfirm.com",
+          "icon": "Mail"
+        },
+        {
+          "platform": "Facebook",
+          "href": "https://facebook.com",
+          "icon": "Facebook"
+        },
+        {
+          "platform": "LinkedIn",
+          "href": "https://linkedin.com",
+          "icon": "LinkedIn"
+        },
+        {
+          "platform": "Twitter",
+          "href": "https://twitter.com",
+          "icon": "Twitter"
+        }
+      ]
+    },
+    {
+      "name": "Adv. Bilal Hassan",
+      "role": "Family Law",
+      "bio": "Trusted counsel for family matters including divorce, custody, and inheritance cases.",
+      "image": "https://waqarandwaqar.com/wp-content/uploads/2026/01/Muhammad-Riaz-Awan.webp",
+      "socialLinks": [
+        {
+          "platform": "WhatsApp",
+          "href": "https://wa.me/923001234569",
+          "icon": "WhatsApp"
+        },
+        {
+          "platform": "Phone",
+          "href": "tel:+923001234569",
+          "icon": "Phone"
+        },
+        {
+          "platform": "Email",
+          "href": "mailto:bilal@yourlawfirm.com",
+          "icon": "Mail"
+        },
+        {
+          "platform": "Facebook",
+          "href": "https://facebook.com",
+          "icon": "Facebook"
+        },
+        {
+          "platform": "LinkedIn",
+          "href": "https://linkedin.com",
+          "icon": "LinkedIn"
+        },
+        {
+          "platform": "Twitter",
+          "href": "https://twitter.com",
+          "icon": "Twitter"
+        }
+      ]
+    }
+  ]
+}

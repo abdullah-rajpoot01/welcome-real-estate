@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://hello-real-estate.pages.dev
+
+# Sitemaps
+Sitemap: https://hello-real-estate.pages.dev/sitemap.xml
