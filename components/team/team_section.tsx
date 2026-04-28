@@ -7,6 +7,7 @@ export default async function TeamSection() {
   if (!teamData) return null;
 
   const { heading, subheading, badge, viewAllCta, members } = teamData;
+  const displayedMembers = members.slice(0, 3);
 
   return (
     <section
@@ -78,7 +79,7 @@ export default async function TeamSection() {
           role="list"
           aria-label="Team members"
         >
-          {members.map((member, index) => (
+          {displayedMembers.map((member, index) => (
             <div
               key={`${member.name}-${index}`}
               className="group relative bg-primary border border-primary/25 rounded-2xl p-6 flex flex-col gap-4 overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl hover:shadow-primary/10"

@@ -7,6 +7,7 @@ export default async function TestimonialsSection() {
   if (!testimonialsData) return null;
 
   const { heading, subheading, badge, viewAllCta, testimonials } = testimonialsData;
+  const displayedTestimonials = testimonials.slice(0, 3);
 
   return (
     <section className="bg-white py-20 px-6" aria-label="Testimonials section">
@@ -74,7 +75,7 @@ export default async function TestimonialsSection() {
           role="list"
           aria-label="Client testimonials"
         >
-          {testimonials.map((testimonial, index) => (
+          {displayedTestimonials.map((testimonial, index) => (
             <div
               key={`${testimonial.name}-${index}`}
               className="group relative bg-primary border border-primary/30 rounded-2xl p-6 flex flex-col gap-5 overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl hover:shadow-primary/10"

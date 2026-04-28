@@ -6,7 +6,7 @@ export default async function TestimonialsPage() {
 
   if (!testimonialsData) return null;
 
-  const { heading, subheading, badge, viewAllCta, testimonials } = testimonialsData;
+  const { heading, subheading, badge,  testimonials } = testimonialsData;
 
   return (
     <section className="bg-white py-20 px-6" aria-label="Testimonials section">

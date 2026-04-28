@@ -2,10 +2,10 @@ import AboutSection from "@/components/home/about";
 import CTASection from "@/components/home/cta";
 import HeroSection from "@/components/home/hero_section";
 import ProjectsSection from "@/components/home/projects";
-import TestimonialsSection from "@/components/home/testimonials";
 import WhatWeOfferSection from "@/components/home/what_we_offer";
 import WhyChooseUsSection from "@/components/home/why-choose";
-import TeamSection from "@/components/team/team";
+import TeamSection from "@/components/team/team_section";
+import TestimonialsSection from "@/components/testimonials/testimonials_section";
 import { generatePageMetadata } from "@/services/metadata/seo";
 
 
